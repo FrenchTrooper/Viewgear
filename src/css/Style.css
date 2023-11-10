@@ -1,0 +1,81 @@
+.chatlookupable, 
+.chatlookupable .linewrap .textparty:not(.content), 
+.chatlookupable .linewrap .textclan:not(.content), 
+.chatlookupable .linewrap .textfaction:not(.content), 
+.chatlookupable .linewrap .textglobal:not(.content), 
+.chatlookupable .linewrap .textto:not(.content), 
+.chatlookupable .linewrap .textfrom:not(.content), 
+.chatlookupable .linewrap .textGM:not(.content)  {
+    color:#FFF !important;    
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.chatlookupable:hover{
+    color:red;
+}
+
+.cl_itemlookupitemwindow,  .cl_itemlookupitemwindow .titleframe {
+    background-color: #10131d;
+}
+
+#expbar .bar{    
+    pointer-events: all;
+}
+
+.formatted, input[type="number"], input[type="text"], input[type="search"], textarea, select {
+    padding: 3px 8px;
+    background-color: #181d24;
+    border: 1px solid black;
+}
+
+.btn.checkbox.active {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 0px 0px 3px #181d24;
+}
+
+.l-upperLeftModal.container.svelte-afakdv{
+    max-width: 50%;
+}
+
+.comparePack{
+    float:left;
+    padding: 10px;
+    width: 240px;
+}
+.cl_itemlookComparewindow .slot{
+    min-height: 260px;
+    height: fit-content;
+}
+.combsplit{
+    float:left;
+}
+.cl_itemlookupitemwindow  .slotdescription{
+    position: unset;
+    width: auto;
+    padding: 8px;
+    z-index: 11;
+    pointer-events: none;
+    background-color: #10131d;
+    color: #a6dcd5;
+    max-width: 220px;
+}
+
+.cl_itemlookupitemwindow{
+    max-width: 220px;
+}
+
+.cl_itemlookComparewindow{
+    max-width: 520px;
+    max-height: 300px;
+    height: 300px;
+}
+
+.close_feature{
+    float:right;
+}
+
+.titleframe.titleframe_custom{
+    height: 20px;
+}

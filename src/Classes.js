@@ -1,0 +1,17 @@
+const Classes = {      
+    layout: "layout",
+    laycon: ".l-ui.layout.svelte-1j9lddf > .container.svelte-1j9lddf",
+    init: "svelte-1mq2czx",
+    reload: "svelte-1mq2czx",
+    chatId: "chat",
+    chatClass: "js-chat",
+    chatClear: "js-chat-clear",
+    closeicon: ".btn.black.svgicon",
+    bggrey: "bggrey",
+    active: "active",
+    closefeature: "close_feature",
+    windowCls : "window",
+    windowHandle: "titleframe",    
+    itemlookupitemwindow: "cl_itemlookupitemwindow",
+    itemlookComparewindow: "cl_itemlookComparewindow",
+};
